@@ -1,0 +1,23 @@
+.parent { display: flex;
+flex-direction: column;
+column-gap: 25px;
+align-items: center;
+justify-content: center;
+width: 50%;
+padding: 15px ;}
+
+
+#cart { 
+    height: 50px;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: orangered ; 
+    font-weight: 500;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}

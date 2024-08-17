@@ -1,0 +1,17 @@
+.AddNewCommentSection {
+  width: 90%;
+  border: 1px solid red;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.AddNewCommentSection > input {
+  width: 60%;
+  height: 90%;
+}
+
+.AddNewCommentSection > button {
+  height: 50%;
+}

@@ -1,0 +1,7 @@
+#edit { color: blueviolet; font-weight: bolder ; border: none; padding: 6px;}
+
+#counter { display: flex;
+flex-direction: column; width:22px ;border: none;border-radius: 10px; }
+
+#btn { 
+border: none;}

@@ -1,0 +1,141 @@
+
+.container {
+  width: 800px;
+  background-color:hsl(0, 0%, 100%) ;
+  margin: 50px 0px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 25px -25px rgba(66, 68, 90, 1);
+  padding-bottom: 0;
+}
+
+.notification-counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.notification-counter h2 {
+  color: hsl(224, 21%, 14%);
+  margin: 0;
+  padding: 0;
+}
+
+.notification-counter #count {
+  color:hsl(0, 0%, 100%) ;
+  background-color:  hsl(219, 85%, 26%);
+  padding: 2px 12px;
+  font-size: 17px;
+  border-radius: 7px;
+  position: relative;
+  right: -5px;
+  top: -3px;
+}
+
+.notification {
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.notification img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.notification #nick {
+  color: hsl(224, 21%, 14%) ;
+  font-weight: 800;
+}
+
+.notification #nick:hover {
+  cursor: pointer;
+  color:hsl(219, 85%, 26%) ; 
+}
+
+.notification #type {
+  color: hsl(219, 12%, 42%) ; 
+}
+
+.notification #post {
+  color: hsl(219, 12%, 42%);
+  font-weight: 800;
+}
+
+.notification #post:hover {
+  cursor: pointer;
+  color: hsl(219, 85%, 26%);
+}
+
+.notification #group-info {
+  color: hsl(219, 85%, 26%);
+  font-weight: 800;
+}
+.notification #group-info:hover {
+  cursor: pointer;
+}
+
+.notification #dot {
+  width: 8px;
+  height: 8px;
+  background-color: hsl(1, 90%, 64%);
+  border-radius: 50%;
+  margin-left: 3px;
+  margin-bottom: 1px;
+}
+
+.notification .time {
+  color: hsl(219, 14%, 63%);
+}
+
+.notification .message-section {
+  padding: 20px;
+  border: 1px solid hsl(205, 33%, 90%);
+  color: hsl(219, 12%, 42%);
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.notification .message-section:hover {
+  cursor: pointer;
+  background-color: hsl(211, 68%, 94%);
+}
+
+.notification .image-comment {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-comment picture {
+  width: 50px;
+  height: 50px;
+}
+
+.image-comment img {
+  width: 50px;
+  height: 50px;
+}
+
+.image-comment img:hover {
+  cursor: pointer;
+  border: 2px solid hsl(211, 68%, 94%);
+  border-radius: 10px;
+}
+
+.container .read-all {
+  color: hsl(219, 12%, 42%);
+}
+
+.container .read-all:hover {
+  cursor: pointer;
+  color: hsl(219, 85%, 26%);
+}
+
+@media (max-width: 800px) {
+  .container {
+    margin: 0;
+    padding: 15px;
+  }
+}

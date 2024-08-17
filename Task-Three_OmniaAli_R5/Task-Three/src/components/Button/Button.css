@@ -1,0 +1,12 @@
+
+#form {  height:65% ; 
+display: flex; ; align-items: center; flex-direction: column;row-gap: 20px; padding-top: 20px;}
+
+button { height:38px;width: 80%;
+display: flex; align-items: center; justify-content: center;
+flex-direction: column; border: none; border-radius: 6px ;
+background-color: hsl(0, 0%, 20%);
+color: whitesmoke;
+cursor: pointer; font-size: 15px;} 
+
+button:hover{ color: black; background-color:  hsl(75, 94%, 57%);font-weight: 750;}

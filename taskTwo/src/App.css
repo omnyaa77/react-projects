@@ -1,0 +1,7 @@
+main { 
+  width: 50%;
+  height: 440px;
+  background-color: blueviolet;
+  display: flex;
+  border-radius: 10px;
+}
